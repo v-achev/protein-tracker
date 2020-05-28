@@ -1,4 +1,7 @@
-# Protein Tracker API based on Lumen
+# Protein Tracker API
+
+Under development!
+The RESTfull API is based on Lumen framework 7.1.
 
 ## License
 
