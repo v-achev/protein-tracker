@@ -17,6 +17,10 @@ $router->get('/', function () use ($router) {
     return 'Protein Tracker App';
 });
 
+$router->get('/test', function () use ($router) {
+    return phpinfo();
+});
+
 # API route group
 $router->group(['prefix' => 'api'], function () use ($router) {
 
