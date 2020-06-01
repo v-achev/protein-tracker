@@ -13,6 +13,10 @@
 |
 */
 
+//echo 'a'; exit;
+
+//echo phpinfo(); exit;
+
 $router->get('/', function () use ($router) {
     return 'Protein Tracker App';
 });
